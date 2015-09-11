@@ -1,4 +1,10 @@
+/* 
+ * Authors: Srinivas Narne, Satbir Lamba
+ * Bitcoin Miner Server Implementation
+*/
+
 package server
+package miner
 import akka.actor._
 import akka.event.Logging
 import akka.event.LoggingAdapter
