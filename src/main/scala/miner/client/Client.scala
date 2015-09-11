@@ -1,8 +1,16 @@
 package miner.client
 
+
 /**
  * @author user
  */
-class Client {
+object Client extends App{
+  
+  
+  def handleInput(args: Array[String]){
+    
+  }
+  
+ 
   
 }

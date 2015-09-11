@@ -1,0 +1,49 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/user/workspace/BitcoinMiner/src/main/scala/miner/server/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.5[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.5[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 31ec7d2, interfacing (CompilerInterface) with Scala compiler version 2.10.5[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/home/user/.sbt/boot/scala-2.10.5/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala:3: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.ActorSystem[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala:4: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala:5: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.event.Logging[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala:6: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.event.LoggingAdapter[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala:7: object common is not a member of package miner[0m
+[0m[[31merror[0m] [0mimport miner.common.Master[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala:8: object common is not a member of package miner[0m
+[0m[[31merror[0m] [0mimport miner.common.Messages.handshake[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala:16: not found: value ActorSystem[0m
+[0m[[31merror[0m] [0m  val serverSystem = ActorSystem("serverSystem")[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m7 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

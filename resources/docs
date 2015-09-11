@@ -1,0 +1,7 @@
+Type of messages :
+
+1. handshake : when the client is up and connects to server
+2. work : the work send by the server's master
+3. foundcoin : coins mined by client to be sent to server
+4. terminate : when client/server terminates
+5. 
