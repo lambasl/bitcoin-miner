@@ -1,0 +1,284 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.1
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+19 items
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/client/Client$.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/client/Client.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/CommonUtils.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Common.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Master$$anonfun$receive$1.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Master.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages$.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages$foundCoin$.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages$foundCoin.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages$handshake$.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages$terminate$.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages$terminate.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages$work$.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages$work.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Worker.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Worker.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/server/Server$$anonfun$1.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/server/Server$.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/server/Server$delayedInit$body.class
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> /home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/server/Server.class
+binary dependencies:
+12 items
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> /home/user/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.1.jar
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/CommonUtils.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> /home/user/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/bundles/akka-actor_2.10-2.1.1.jar
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> /home/user/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.1.jar
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> /home/user/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.1.jar
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Worker.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> /home/user/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/bundles/akka-actor_2.10-2.1.1.jar
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> /home/user/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.1.jar
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+3 items
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> /home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> /home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> /home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+19 items
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> miner.client.Client
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> miner.client.Client$
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/CommonUtils.scala -> miner.common.Common
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> miner.common.Master
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> miner.common.Master$$anonfun$receive$1
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> miner.common.Messages
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> miner.common.Messages$
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> miner.common.Messages$foundCoin
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> miner.common.Messages$foundCoin$
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> miner.common.Messages$handshake$
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> miner.common.Messages$terminate
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> miner.common.Messages$terminate$
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> miner.common.Messages$work
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> miner.common.Messages$work$
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Worker.scala -> miner.common.Worker
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> miner.server.Server
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> miner.server.Server$
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> miner.server.Server$$anonfun$1
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> miner.server.Server$delayedInit$body
+used names:
+113 items
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> <init>
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> App
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> Array
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> Client
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> Predef
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> String
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> Unit
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> client
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> miner
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> scala
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/CommonUtils.scala -> <init>
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/CommonUtils.scala -> AnyRef
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/CommonUtils.scala -> Common
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/CommonUtils.scala -> common
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/CommonUtils.scala -> miner
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/CommonUtils.scala -> scala
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> <init>
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> ==
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> A1
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> Actor
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> B1
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> Function1
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> Int
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> Master
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> Messages
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> Predef
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> actor
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> akka
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> asInstanceOf
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> common
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> handshake
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> miner
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> println
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> scala
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> unchecked
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> &&
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> <init>
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> ==
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> AbstractFunction1
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> AbstractFunction2
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> AnyRef
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> Array
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> Function1
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> Int
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> Messages
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> None
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> Predef
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> Product
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> ScalaRunTime
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> Serializable
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> Statics
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> String
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> _hashCode
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> _root_
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> _toString
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> anyHash
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> asInstanceOf
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> common
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> dataGen
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> eq
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> finalizeHash
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> foundCoin
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> handshake
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> hash
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> id
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> isInstanceOf
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> miner
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> mix
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> msg
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> numLeadingZeros
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> runtime
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> scala
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> terminate
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> toString
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> typedProductIterator
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> work
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> x$0
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> ||
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Worker.scala -> <init>
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Worker.scala -> AnyRef
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Worker.scala -> Worker
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Worker.scala -> common
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Worker.scala -> miner
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Worker.scala -> scala
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> !
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> <init>
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> ActorSystem
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> App
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> Logging
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> LoggingAdapter
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> Master
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> Messages
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> Props
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> Server
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> actor
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> actorOf
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> actorRef2Scala
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> akka
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> apply
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> common
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> event
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> handshake
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> leadingZeros
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> master
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> miner
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> numberOfWorkers
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> package
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> qual$1
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> scala
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> server
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> serverSystem
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> x$1
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> x$2
+product stamps:
+19 items
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/client/Client$.class -> lastModified(1441958460000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/client/Client.class -> lastModified(1441958460000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Common.class -> lastModified(1441958460000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Master$$anonfun$receive$1.class -> lastModified(1441958710000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Master.class -> lastModified(1441958710000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages$.class -> lastModified(1441958460000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages$foundCoin$.class -> lastModified(1441958460000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages$foundCoin.class -> lastModified(1441958460000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages$handshake$.class -> lastModified(1441958460000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages$terminate$.class -> lastModified(1441958460000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages$terminate.class -> lastModified(1441958460000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages$work$.class -> lastModified(1441958460000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages$work.class -> lastModified(1441958460000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Messages.class -> lastModified(1441958460000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/common/Worker.class -> lastModified(1441958460000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/server/Server$$anonfun$1.class -> lastModified(1441958782000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/server/Server$.class -> lastModified(1441958782000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/server/Server$delayedInit$body.class -> lastModified(1441958782000)
+/home/user/workspace/BitcoinMiner/target/scala-2.10/classes/miner/server/Server.class -> lastModified(1441958782000)
+source stamps:
+6 items
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> hash(4ad9a2856d1b0e704e9ca1852e7d75c57b613476)
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/CommonUtils.scala -> hash(00d8e64b228e9c2db8436457407d11aeed0913aa)
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> hash(3e8842bd4e939d92de198259a887686958ecdb89)
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> hash(0a4dcb61ab9d005657a46ca24a16853d9e037386)
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Worker.scala -> hash(371eb1b5cbdf0879b5f4abb1cda4ca0cc88cf20a)
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> hash(7ade66358eb01d34d27936ffb2146a28f2ef497f)
+binary stamps:
+3 items
+/home/user/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/bundles/akka-actor_2.10-2.1.1.jar -> lastModified(1361821556000)
+/home/user/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.1.jar -> lastModified(1363129448000)
+/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar -> lastModified(1437716496000)
+class names:
+3 items
+/home/user/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/bundles/akka-actor_2.10-2.1.1.jar -> akka.actor.ActorRef
+/home/user/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.1.jar -> scala.App
+/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+6 items
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD+Kv7tAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAG3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKJVVjB0AAZub3RpZnlzcQB+AAyoCcEzdAALaGFuZGxlSW5wdXRzcQB+AAwdDOsQdAAEd2FpdHNxAH4ADGG8hH50AA0kYXNJbnN0YW5jZU9mc3EAfgAMDyTfwXQABmVxdWFsc3NxAH4ADCf6w8B0AAxhc0luc3RhbmNlT2ZzcQB+AAxDBSyedAAOZXhlY3V0aW9uU3RhcnRzcQB+AAze2yj3dAAMc3luY2hyb25pemVkc3EAfgAMIryLtXQADSRpc0luc3RhbmNlT2ZzcQB+AAxs8D0ndAAFX2FyZ3NzcQB+AAykBBw9dAAEbWFpbnNxAH4ADChLu1l0AAhpbml0Q29kZXNxAH4ADCKyYQZ0AAlub3RpZnlBbGxzcQB+AAwOxrT4dAAMaXNJbnN0YW5jZU9mc3EAfgAM/FFKfHQAAj09c3EAfgAMt8JN/XQABWNsb25lc3EAfgAMP0y3THQACHRvU3RyaW5nc3EAfgAM8WrSYXQABGFyZ3NzcQB+AAzTXOe0dAACIT1zcQB+AAz86Ty3dAAIZ2V0Q2xhc3NzcQB+AAwVZ67LdAAGQ2xpZW50c3EAfgAMsBn1AHQAAm5lc3EAfgAMX1SYlHQAAmVxc3EAfgAMuyE8jnQAC2RlbGF5ZWRJbml0c3EAfgAMHvb4G3QAAiMjc3EAfgAMiZD01HQACGZpbmFsaXplc3EAfgAMa5dKjHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ATXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAE21pbmVyLmNsaWVudC5DbGllbnR1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBmeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBlAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBNTAAJaW5oZXJpdGVkcQB+AE1MAAdwYXJlbnRzcQB+AE14cQB+AG5zcQB+AGUBdXEAfgBIAAAAAHBzcQB+AGUBdXEAfgBIAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBOcQB+AFd1cQB+AFgAAAAAc3EAfgBaAHEAfgAjdXEAfgBdAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AG10AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBtc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCLdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AeHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AYHQABVBsYWlucQB+ADFzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AH9bAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AG1zcQB+AH50AAVBcnJheXEAfgCEdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AH50AAZTdHJpbmdzcQB+AIJzcQB+AIV1cQB+AIgAAAADc3EAfgCKdAAEamF2YXNxAH4AinQABGxhbmdxAH4Aj3BzcQB+AGUBdXEAfgCiAAAABHNxAH4AfnQAA0FwcHEAfgCEc3EAfgB+dAALRGVsYXllZEluaXRxAH4AhHNxAH4AfnQABk9iamVjdHEAfgCmc3EAfgB+dAADQW55cQB+AIRwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABW1pbmVyc3EAfgC5dAAMbWluZXIuY2xpZW50c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFPu2vjcHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADsvaG9tZS91c2VyL3dvcmtzcGFjZS9CaXRjb2luTWluZXIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFErZooVtGw5wTpyhhS59dcV7YTR2
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/CommonUtils.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAb3TDXAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLgfgI90AAZub3RpZnlzcQB+AAyGqT5VdAAEd2FpdHNxAH4ADL8N8BF0AA0kYXNJbnN0YW5jZU9mc3EAfgAMxD6n1XQABmVxdWFsc3NxAH4ADM3tgQ90AAxhc0luc3RhbmNlT2ZzcQB+AAybUVEKdAAMc3luY2hyb25pemVkc3EAfgAMoQTrvXQADSRpc0luc3RhbmNlT2ZzcQB+AAxZXxrJdAAJbm90aWZ5QWxsc3EAfgAMgPvQEHQADGlzSW5zdGFuY2VPZnNxAH4ADEb4VnB0AAY8aW5pdD5zcQB+AAy6h7qBdAAGQ29tbW9uc3EAfgAMzeCMVnQAAj09c3EAfgAMhAIM0HQABWNsb25lc3EAfgAMaz/pOnQACHRvU3RyaW5nc3EAfgAMwo0EsHQAAiE9c3EAfgAMKzlQD3QACGdldENsYXNzc3EAfgAMHIZMp3QAAm5lc3EAfgAMVDbFgXQAAmVxc3EAfgAM8CkNKXQAAiMjc3EAfgAMcF/9Y3QACGZpbmFsaXplc3EAfgAMc6Oc8nQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAE21pbmVyLmNvbW1vbi5Db21tb251cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AFp4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFkBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AYnNxAH4AWQF1cQB+ADwAAAAAcHNxAH4AWQF1cQB+ADwAAAAAcHNxAH4AWQF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGF0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AHp0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHtzcQB+AG50AANBbnlzcQB+AHJzcQB+AHV1cQB+AHgAAAACc3EAfgB6dAAFc2NhbGFxAH4AgXBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAMbWluZXIuY29tbW9uc3EAfgCLdAAFbWluZXJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU+7a+NwdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAOy9ob21lL3VzZXIvd29ya3NwYWNlL0JpdGNvaW5NaW5lci90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUANjmSyKOnC24Q2RXQH0Rru0JE6o=
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBLZ9YtAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwuem093QABHNlbGZzcQB+AAvHvvISdAAHY29udGV4dHVxAH4ACQAAAB5zcQB+AAuHPj1jdAAGbm90aWZ5c3EAfgALuVQs8nQAB1JlY2VpdmVzcQB+AAsQvcNBdAAEd2FpdHNxAH4ACw1OH6R0AAZNYXN0ZXJzcQB+AAsEuykYdAANJGFzSW5zdGFuY2VPZnNxAH4AC77fjc90AAZlcXVhbHNzcQB+AAsQDEvndAAMYXNJbnN0YW5jZU9mc3EAfgALTbfAe3QADHN5bmNocm9uaXplZHNxAH4AC9r8AOV0AA0kaXNJbnN0YW5jZU9mc3EAfgALTCgb/3QAB3JlY2VpdmVzcQB+AAs3PXDLdAAKcHJlUmVzdGFydHNxAH4AC3aKDut0AAtwb3N0UmVzdGFydHNxAH4AC+U86ZJ0AAhwb3N0U3RvcHNxAH4AC2CvSBl0AAlub3RpZnlBbGxzcQB+AAvIB8+NdAAMaXNJbnN0YW5jZU9mc3EAfgALo9lde3QABjxpbml0PnNxAH4AC8P+Xt90AAhwcmVTdGFydHNxAH4AC+ETYat0AAl1bmhhbmRsZWRzcQB+AAv7pMImdAACPT1zcQB+AAsq2x5QdAAFY2xvbmVzcQB+AAvVauIodAAGc2VuZGVyc3EAfgALmMBa6HQACHRvU3RyaW5nc3EAfgALh5xESHQAAiE9c3EAfgALXBgOXHQACGdldENsYXNzc3EAfgALkzcqiHQAAm5lc3EAfgAL8Zf3qnQAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4AC7vek890AAJlcXNxAH4AC9xY7Rp0AAIjI3NxAH4AC0PKhOV0AAhmaW5hbGl6ZXNxAH4AC/8g5jJ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABNtaW5lci5jb21tb24uTWFzdGVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AG8Bc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFdMAAlpbmhlcml0ZWRxAH4AV0wAB3BhcmVudHNxAH4AV3hxAH4AdnNxAH4AbwF1cQB+AFIAAAAAcHNxAH4AbwF1cQB+AFIAAAAAcHNxAH4AbwF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAA3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHV0AAVBY3RvcnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AdXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEYWtrYXNxAH4AjnQABWFjdG9yc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AI9zcQB+AIJ0AAZPYmplY3RzcQB+AIZzcQB+AIl1cQB+AIwAAAADc3EAfgCOdAAEamF2YXNxAH4AjnQABGxhbmdxAH4AlXNxAH4AgnQAA0FueXNxAH4AhnNxAH4AiXVxAH4AjAAAAAJzcQB+AI50AAVzY2FsYXEAfgCVcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0AAxtaW5lci5jb21tb25zcQB+AKh0AAVtaW5lcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT7tvu+l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdAA7L2hvbWUvdXNlci93b3Jrc3BhY2UvQml0Y29pbk1pbmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQ+iEK9TpOdkt4Zglmoh2hpWOzbiQ==
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCzPWSTAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAALXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cL5LiPF0AAZub3RpZnlzcQB+AAx3EkKAdAAHdW5hcHBseXNxAH4ADCtUpw10AAdjdXJyaWVkc3EAfgAM46MCy3QAD251bUxlYWRpbmdaZXJvc3NxAH4ADHVcxH10AAR3YWl0c3EAfgAMWArW+3QADmNvcHkkZGVmYXVsdCQyc3EAfgAMjp9VgnQADSRhc0luc3RhbmNlT2ZzcQB+AAyQeHj6dAAHY29tcG9zZXNxAH4ADNUV44N0AAxwcm9kdWN0QXJpdHlzcQB+AAxvthgpdAAGZXF1YWxzc3EAfgAMPmGMU3QADGFzSW5zdGFuY2VPZnNxAH4ADALmSPZ0AAxzeW5jaHJvbml6ZWRzcQB+AAzLqfRddAANJGlzSW5zdGFuY2VPZnNxAH4ADKVvDTl0AAdhbmRUaGVuc3EAfgAMoHYR13QABnR1cGxlZHNxAH4ADHmRoON0AAhjYW5FcXVhbHNxAH4ADHX3z1x0AA1wcm9kdWN0UHJlZml4c3EAfgAMVQXfBXQABHdvcmtzcQB+AAzLQgzVdAAJbm90aWZ5QWxsc3EAfgAMa7yWPXQAC3JlYWRSZXNvbHZlc3EAfgAMWvbxCnQACXRlcm1pbmF0ZXNxAH4ADHKVZwF0AAxpc0luc3RhbmNlT2ZzcQB+AAyQhWGfdAAEaGFzaHNxAH4ADGMUjU50AAY8aW5pdD5zcQB+AAxLjEfMdAAHZGF0YUdlbnNxAH4ADIKY1s90AAhNZXNzYWdlc3NxAH4ADH2b5qB0AAJpZHNxAH4ADJuidG90AAlmb3VuZENvaW5zcQB+AAypQ0uzdAAFYXBwbHlzcQB+AAy+6tcFdAACPT1zcQB+AAz4GBJJdAAFY2xvbmVzcQB+AAxB13EtdAAJaGFuZHNoYWtlc3EAfgAMGKxu1nQABGNvcHlzcQB+AAxE7kvhdAAIdG9TdHJpbmdzcQB+AAwfgwhPdAADbXNnc3EAfgAMVwcannQAAiE9c3EAfgAMteiFhnQACGdldENsYXNzc3EAfgAMPpsHkHQADmNvcHkkZGVmYXVsdCQxc3EAfgAMzwCHrHQAAm5lc3EAfgAM3rPnwHQAAmVxc3EAfgAMchMxtXQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADCYHah50AAIjI3NxAH4ADPCqXLV0AAhmaW5hbGl6ZXNxAH4ADBRwJqx0AA5wcm9kdWN0RWxlbWVudHNxAH4ADIz43ch0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AHF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABVtaW5lci5jb21tb24uTWVzc2FnZXN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCKeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCJAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBxTAAJaW5oZXJpdGVkcQB+AHFMAAdwYXJlbnRzcQB+AHF4cQB+AJJzcQB+AIkBdXEAfgBsAAAAAHBzcQB+AIkBdXEAfgBsAAAAAHBzcQB+AIkBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCRdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCRc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCqdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCrc3EAfgCedAADQW55c3EAfgCic3EAfgCldXEAfgCoAAAAAnNxAH4AqnQABXNjYWxhcQB+ALFwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQADG1pbmVyLmNvbW1vbnNxAH4Au3QABW1pbmVyc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFPu2vjcHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADsvaG9tZS91c2VyL3dvcmtzcGFjZS9CaXRjb2luTWluZXIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFApNy2GrnQBWV6RsokoWhT2eA3OG
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Worker.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHB/sDmMAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cNKvQKZ0AAZub3RpZnlzcQB+AAy+VEcgdAAEd2FpdHNxAH4ADAJ40xN0AA0kYXNJbnN0YW5jZU9mc3EAfgAMRjUEkHQABmVxdWFsc3NxAH4ADHhAB8h0AAxhc0luc3RhbmNlT2ZzcQB+AAyDYCR3dAAMc3luY2hyb25pemVkc3EAfgAMVa78tnQADSRpc0luc3RhbmNlT2ZzcQB+AAwbFL8BdAAJbm90aWZ5QWxsc3EAfgAMDkcXHXQADGlzSW5zdGFuY2VPZnNxAH4ADO0f0MJ0AAY8aW5pdD5zcQB+AAzQynPjdAACPT1zcQB+AAyQEGOWdAAFY2xvbmVzcQB+AAzplbDudAAIdG9TdHJpbmdzcQB+AAxN9go4dAACIT1zcQB+AAxYneYPdAAIZ2V0Q2xhc3NzcQB+AAx9Ya1kdAAGV29ya2Vyc3EAfgAMRA1Ts3QAAm5lc3EAfgAMDV4+UXQAAmVxc3EAfgAMDOJ4T3QAAiMjc3EAfgAMY2WOP3QACGZpbmFsaXplc3EAfgAMYcH0LXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAE21pbmVyLmNvbW1vbi5Xb3JrZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AFp4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFkBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AYnNxAH4AWQF1cQB+ADwAAAAAcHNxAH4AWQF1cQB+ADwAAAAAcHNxAH4AWQF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGF0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AHp0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHtzcQB+AG50AANBbnlzcQB+AHJzcQB+AHV1cQB+AHgAAAACc3EAfgB6dAAFc2NhbGFxAH4AgXBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAMbWluZXIuY29tbW9uc3EAfgCLdAAFbWluZXJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU+7a+NwdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAOy9ob21lL3VzZXIvd29ya3NwYWNlL0JpdGNvaW5NaW5lci90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUNx6xtcvfCHm19KuxzaTKDMiM8go=
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBom1wFAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCMBshV0AAZub3RpZnlzcQB+AAzBRzr0dAAEd2FpdHNxAH4ADCZcKxd0AA0kYXNJbnN0YW5jZU9mc3EAfgAMc6mlJXQAD251bWJlck9mV29ya2Vyc3NxAH4ADNxXtqd0AAZTZXJ2ZXJzcQB+AAwIOLPxdAAGbWFzdGVyc3EAfgAMdkUf6XQABmVxdWFsc3NxAH4ADKWBKvl0AAxhc0luc3RhbmNlT2ZzcQB+AAyh4yC4dAAOZXhlY3V0aW9uU3RhcnRzcQB+AAzNGcxFdAAMc3luY2hyb25pemVkc3EAfgAMej83jnQADSRpc0luc3RhbmNlT2ZzcQB+AAzjjXMpdAAMbGVhZGluZ1plcm9zc3EAfgAMhsN93XQADHNlcnZlclN5c3RlbXNxAH4ADACL8fF0AAVfYXJnc3NxAH4ADJLUdWZ0AARtYWluc3EAfgAM4xgjj3QACGluaXRDb2Rlc3EAfgAMeveKNnQACW5vdGlmeUFsbHNxAH4ADM5FZlF0AAxpc0luc3RhbmNlT2ZzcQB+AAwH5MppdAACPT1zcQB+AAxtZdWvdAAFY2xvbmVzcQB+AAz1wM4gdAAIdG9TdHJpbmdzcQB+AAxDr1gudAAEYXJnc3NxAH4ADIeR/ll0AAIhPXNxAH4ADBCXqhx0AAhnZXRDbGFzc3NxAH4ADEBqjp10AAJuZXNxAH4ADNfhk150AAJlcXNxAH4ADJEQwRR0AAtkZWxheWVkSW5pdHNxAH4ADBxSJg90AAIjI3NxAH4ADEOCFFh0AAhmaW5hbGl6ZXNxAH4ADC8w36N0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABNtaW5lci5zZXJ2ZXIuU2VydmVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AbHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AawBwc3EAfgBwc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFNMAAlpbmhlcml0ZWRxAH4AU0wAB3BhcmVudHNxAH4AU3hxAH4AdHNxAH4AawBwc3EAfgBwdXEAfgBOAAAAAHNxAH4AawBwc3EAfgBwdXEAfgBOAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBUcQB+AF11cQB+AF4AAAAAc3EAfgBgAHEAfgArdXEAfgBjAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHN0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBzc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCUdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AgXhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AZnQABVBsYWlucQB+ADlzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AIhbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AHNzcQB+AId0AAVBcnJheXEAfgCNdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AId0AAZTdHJpbmdzcQB+AItzcQB+AI51cQB+AJEAAAADc3EAfgCTdAAEamF2YXNxAH4Ak3QABGxhbmdxAH4AmHNxAH4AawBwc3EAfgBwdXEAfgCrAAAABHNxAH4Ah3QAA0FwcHEAfgCNc3EAfgCHdAALRGVsYXllZEluaXRxAH4AjXNxAH4Ah3QABk9iamVjdHEAfgCvc3EAfgCHdAADQW55cQB+AI11cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAxtaW5lci5zZXJ2ZXJzcQB+AMN0AAVtaW5lcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT7tw3sx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA7L2hvbWUvdXNlci93b3Jrc3BhY2UvQml0Y29pbk1pbmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABR63mY1jrAdNNJ5Nv+yFGoo8u9Jfw==
+external apis:
+0 items
+source infos:
+6 items
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/client/Client.scala -> 
+AAAAAAAAAAA=
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/CommonUtils.scala -> 
+AAAAAAAAAAA=
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Master.scala -> 
+AAAAAAAAAAA=
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Messages.scala -> 
+AAAAAAAAAAA=
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/common/Worker.scala -> 
+AAAAAAAAAAA=
+/home/user/workspace/BitcoinMiner/src/main/scala/miner/server/Server.scala -> 
+AAAAAAAAAAA=
+compilations:
+3 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT7tr43B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lL3VzZXIvd29ya3NwYWNlL0JpdGNvaW5NaW5lci90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT7tvu+l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lL3VzZXIvd29ya3NwYWNlL0JpdGNvaW5NaW5lci90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT7tw3sx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lL3VzZXIvd29ya3NwYWNlL0JpdGNvaW5NaW5lci90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==

@@ -8,7 +8,7 @@ import miner.common.Master
 import miner.common.Messages.handshake
 
 
-class Server {
+object Server extends App{
   
   val leadingZeros = 3;
   val numberOfWorkers = 2;

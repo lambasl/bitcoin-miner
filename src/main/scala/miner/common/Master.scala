@@ -11,6 +11,8 @@ class Master(numLeadingZeros: Int) extends Actor{
   def receive = {
     case "handshake" => 
       println("first message")
+    case _ => println("Dont know why it's not printing")
+        
   }
   
 }
