@@ -1,0 +1,10 @@
+^Cuser@galago:~/workspace/BitcoinMiner$ sbt "project bitcoinminer" "run 7 100 20"
+[info] Set current project to bitcoin (in build file:/home/user/workspace/BitcoinMiner/)
+[info] Set current project to bitcoin (in build file:/home/user/workspace/BitcoinMiner/)
+[info] Running miner.main.BitcoinMiner 7 100 20
+Running app..
+[INFO] [09/13/2015 02:44:51.901] [run-main-0] [NettyRemoteTransport(akka://ServerSystem@127.0.1.1:6565)] RemoteServerStarted@akka://ServerSystem@127.0.1.1:6565
+Server started at 127.0.1.1
+Satbeersl"ARS{42uh6!bFyA;)o05	000000031de93b3067d3e1332c39be2629d619811a2545d378aa49ce74c57c13
+Total Number of Bitcoins Mined = 1
+[success] Total time: 612 s, completed Sep 13, 2015 2:55:02 AM

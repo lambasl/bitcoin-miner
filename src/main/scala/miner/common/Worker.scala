@@ -9,12 +9,18 @@ import scala.util.control.TailCalls.Done
  * @author user
  */
  class Worker() extends Actor {
+  
+    var matchString = "" 
 
     def generateZeroString(numberOfZeroes: Int) = {
+      if(matchString != ""){
+        matchString
+      }
       var zeroString = ""
       for (i <- 1 to numberOfZeroes) {
         zeroString = zeroString + "0"
       }
+      matchString = zeroString
       zeroString
     }
 
@@ -39,11 +45,12 @@ import scala.util.control.TailCalls.Done
           }
           a.mkString
         }
-        var preHashString = "Satbeersl" + randomStringArray(randomStrLen)
-        var hashedString = hash256(preHashString)
+        var preHashString = new StringBuilder("Satbeersl")
+        preHashString.append(randomStringArray(randomStrLen))
+        var hashedString = hash256(preHashString.toString())
         var zeroString: String = generateZeroString(numberOfZeroes)
         if (hashedString.startsWith(zeroString)) {
-          println(preHashString + "\t" + hashedString)
+          //println(preHashString.toString() + "\t" + hashedString)
           numberOfCoinsFound = numberOfCoinsFound + 1
         }
       }
