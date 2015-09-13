@@ -2,3 +2,31 @@ compile
 eclipse
 compile
 run
+rub
+run
+compile
+run
+run client.Client 3
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+run 3 1 1
+run 4 1 32
+run 1 1 1
+compile
+run 4
+run 8
+run 6
+run 5
+run 127.0.0.1
+run 6
+run 127.0.0.1
+run 6
+run 127.0.1.1
