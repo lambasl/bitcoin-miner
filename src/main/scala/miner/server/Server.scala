@@ -21,7 +21,7 @@ object Server {
   var numberOfZeroes = 0
   var numberOfCoinsFound = 0
   var bitcoinSet = 100000000 //10^7
-  var workUnit = 1000000 // 10^4
+  var workUnit = 500000 // 10^4
   var scalingFactor = 1
   var randomStringLength = 0
 
@@ -63,16 +63,17 @@ object Server {
     var unitsOfWorkDone = 0
     val clientLoadFactor = 5
 
-    val numServerWorkers = ((Runtime.getRuntime().availableProcessors()) * 5).toInt
+    val numServerWorkers = ((Runtime.getRuntime().availableProcessors()) * 2.5).toInt
     println("NumberofWorkers =" + numServerWorkers)
     val workerRouter = context.actorOf(Props[Worker].withRouter(RoundRobinRouter(numServerWorkers)), name = "workerRouter")
     for(i <- 0 to numServerWorkers-1){
-      self ! Messages.StartMining
+      workerRouter ! new Work(workUnit, 1, randomStringLength)
+      unitsOfWorkDone += 1
     }
     
     def receive = {
 
-      case Messages.StartMining =>
+      case Messages.Mine =>
         if(unitsOfWorkDone < totalUnitWorks){           
           workerRouter ! new Work(workUnit, 1, randomStringLength)
         }
@@ -96,7 +97,7 @@ object Server {
       case Messages.Done(numberOfCoinsFound) =>       
         bitcoinsFound += numberOfCoinsFound
         if (unitsOfWorkDone < totalUnitWorks) {
-            self ! Messages.StartMining         
+            self ! Messages.Mine         
         }else{
           self ! Messages.Finished
         }

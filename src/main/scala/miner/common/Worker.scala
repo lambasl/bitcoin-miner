@@ -50,7 +50,7 @@ import scala.util.control.TailCalls.Done
         var hashedString = hash256(preHashString.toString())
         var zeroString: String = generateZeroString(numberOfZeroes)
         if (hashedString.startsWith(zeroString)) {
-          //println(preHashString.toString() + "\t" + hashedString)
+          println(preHashString.toString() + "\t" + hashedString)
           numberOfCoinsFound = numberOfCoinsFound + 1
         }
       }

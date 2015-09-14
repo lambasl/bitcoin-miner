@@ -9,7 +9,7 @@ object Messages {
   
   case class Done(v:Int)
   case class Work(workSize: Int, numZeros: Int, randomStrLen: Int)
-  case object StartMining 
+  case object Mine 
   case class NumWorkers(numWorkers: Int)
   case object GetMoreWork
   case class AssignMoreWorkToClient(numOfWorkers: Int, bitcoinsMined: Int)
