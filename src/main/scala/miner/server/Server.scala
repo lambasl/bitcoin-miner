@@ -42,7 +42,7 @@ object Server {
       println("Scaling not defined. Using scaling=" + scalingFactor)
     }
     if (randomStringLength == Int.MinValue) {
-      randomStringLength = 10
+      randomStringLength = 20
       println("Random String length not defined. Using default length=" + randomStringLength)
     }
     bitcoinSet = bitcoinSet * scalingFactor
@@ -51,9 +51,6 @@ object Server {
   def run() = {
     val serverSystem = ActorSystem("ServerSystem")
     val serverGuardian = serverSystem.actorOf(Props(new ServerGuardian()), name = "ServerGuardian")
-    val localhost = InetAddress.getLocalHost
-    val ipAddress = localhost.getHostAddress
-    println("Server started at " + ipAddress)
   }
  
   class ServerGuardian  extends Actor {
@@ -62,6 +59,7 @@ object Server {
     var bitcoinsFound = 0    
     var totalUnitWorks = bitcoinSet/workUnit
     var unitsOfWorkDone = 0
+    var unitsofWorkScheduled = 0 
     val clientLoadFactor = 5
 
     val numServerWorkers = ((Runtime.getRuntime().availableProcessors()) * 2.5).toInt
@@ -69,47 +67,44 @@ object Server {
     val workerRouter = context.actorOf(Props[Worker].withRouter(RoundRobinRouter(numServerWorkers)), name = "workerRouter")
     for(i <- 0 to numServerWorkers-1){
       workerRouter ! new Work(workUnit, numberOfZeroes, randomStringLength)
-      unitsOfWorkDone += 1
+      unitsofWorkScheduled +=1
     }
     
     def receive = {
 
       case Messages.Mine =>
-        if(unitsOfWorkDone < totalUnitWorks){           
+        if(unitsofWorkScheduled < totalUnitWorks){           
           workerRouter ! new Work(workUnit, numberOfZeroes, randomStringLength)
+          unitsofWorkScheduled +=1
         }
-        else{
-          self ! Messages.Finished
-        }
-        unitsOfWorkDone += 1
-        
 
       case "Ready" =>      
         sender ! "NumberofWorkers"
         
       case Messages.NumWorkers(numWorkers) =>
-         if(unitsOfWorkDone < totalUnitWorks){
+         if(unitsofWorkScheduled < totalUnitWorks){
+           unitsofWorkScheduled += clientLoadFactor*numWorkers
           sender ! Messages.WorkLoad(clientLoadFactor*numWorkers, workUnit, numberOfZeroes, randomStringLength)
-          unitsOfWorkDone += clientLoadFactor*numWorkers
-        }else{
-          sender ! Messages.Finished
         }
         
-      case Messages.Done(numberOfCoinsFound) =>       
+      case Messages.Done(numberOfCoinsFound) =>
+        unitsOfWorkDone += 1
         bitcoinsFound += numberOfCoinsFound
-        if (unitsOfWorkDone < totalUnitWorks) {
+        if (unitsofWorkScheduled < totalUnitWorks) {
+           unitsofWorkScheduled +=1
             self ! Messages.Mine         
-        }else{
+        }else if(totalUnitWorks <= unitsOfWorkDone){
           self ! Messages.Finished
         }
 
       case Messages.AssignMoreWorkToClient(numWorkers, bitCoinsMined) =>
+        //Work from prev slot is done. Keeping a count of it
+        unitsOfWorkDone += clientLoadFactor*numWorkers
         bitcoinsFound += bitCoinsMined
         if(unitsOfWorkDone < totalUnitWorks){
-          sender ! Messages.WorkLoad(clientLoadFactor*numWorkers, workUnit, numberOfZeroes, randomStringLength)
-          unitsOfWorkDone += clientLoadFactor*numWorkers
-        }else{
-          sender ! Messages.Finished
+          sender ! Messages.WorkLoad(clientLoadFactor*numWorkers, workUnit, numberOfZeroes, randomStringLength)          
+        }else if(totalUnitWorks <=unitsofWorkScheduled){
+          sender ! Messages.Finished          
         }
         
       case Messages.Finished =>
