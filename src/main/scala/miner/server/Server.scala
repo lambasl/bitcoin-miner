@@ -45,6 +45,7 @@ object Server {
       randomStringLength = 10
       println("Random String length not defined. Using default length=" + randomStringLength)
     }
+    bitcoinSet = bitcoinSet * scalingFactor
   }
 
   def run() = {
@@ -103,6 +104,7 @@ object Server {
         }
 
       case Messages.AssignMoreWorkToClient(numWorkers, bitCoinsMined) =>
+        bitcoinsFound += bitCoinsMined
         if(unitsOfWorkDone < totalUnitWorks){
           sender ! Messages.WorkLoad(clientLoadFactor*numWorkers, workUnit, numberOfZeroes, randomStringLength)
           unitsOfWorkDone += clientLoadFactor*numWorkers
